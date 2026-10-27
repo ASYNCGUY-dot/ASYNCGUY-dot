@@ -27,7 +27,7 @@
 
 | 프로젝트 | 포트폴리오 안내 | 구현·판단 근거 |
 |---|---|---|
-| 냉장고 한끼 | [프로젝트 개요](https://github.com/ASYNCGUY-dot/naengjango-hankki-v3/blob/main/docs/PORTFOLIO_OVERVIEW.md) | [개발 보고서](https://github.com/ASYNCGUY-dot/naengjango-hankki-v3/blob/main/PROJECT_REPORT_V3.md) |
+| 냉장고 한끼 | [프로젝트 개요](https://github.com/ASYNCGUY-dot/naengjango-hankki-v3/blob/main/README.md) | [개발 보고서](https://github.com/ASYNCGUY-dot/naengjango-hankki-v3/blob/main/PROJECT_REPORT_V3.md) |
 | 계약서 돋보기 | [프로젝트 개요](https://github.com/ASYNCGUY-dot/contract-lens/blob/main/docs/PORTFOLIO_OVERVIEW.md) | [실험·정정 기록](https://github.com/ASYNCGUY-dot/contract-lens/blob/main/docs/NOTES.md) |
 | 근거있어 | [프로젝트 개요](https://github.com/ASYNCGUY-dot/geungeo-isseo/blob/main/docs/PORTFOLIO_OVERVIEW.md) | [평가·검토 근거](https://github.com/ASYNCGUY-dot/geungeo-isseo/tree/main/docs/evidence) |
 | Football Lens | [프로젝트 개요](https://github.com/ASYNCGUY-dot/football-lens-ai-agent/blob/main/docs/PORTFOLIO_OVERVIEW.md) | [파이프라인 구현](https://github.com/ASYNCGUY-dot/football-lens-ai-agent/blob/main/week2/graph.py) |
