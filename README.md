@@ -14,6 +14,7 @@
 | [근거있어](https://github.com/ASYNCGUY-dot/geungeo-isseo) | 건강기능식품·화장품 광고를 공식 데이터와 대조하는 근거영수증 | 데이터 품질 점검, 규칙 엔진, 출처 추적, 동결 평가 |
 | [Football Lens](https://github.com/ASYNCGUY-dot/football-lens-ai-agent) | 축구 뉴스 수집, 여러 LLM을 이용한 분석, RAG 검색 대시보드 | LangGraph · LangChain · ChromaDB · Streamlit |
 | [한국어 감성분석](https://github.com/ASYNCGUY-dot/Huggingface-work_korean-sentiment_nlp) | NSMC 리뷰로 RoBERTa 파인튜닝, 별도 테스트 평가, Gradio 추론 | PyTorch · Transformers · Hugging Face, 데이터 비교 실험 |
+| [MD 워크툴](https://github.com/ASYNCGUY-dot/md-work-tool) · [바로 써보기](https://asyncguy-dot.github.io/md-work-tool/) | 온라인 MD의 매출·목표·광고·프로모션·정산 업무를 한 화면에서, MD 업무 / 마케팅·광고 작업 공간 분리 | 빌드 없는 JavaScript · IndexedDB, 자료 검증·판정 보류 설계, Node 테스트 |
 
 ## 코드를 넘어 어떤 판단을 했는가
 
@@ -22,6 +23,7 @@
 - **근거있어:** 공식 문구나 광고를 끝까지 해석하지 못하면 확인을 보류합니다. 새 평가에서 효과가 확인되지 않은 규칙은 철회하고, 출처와 규칙 버전을 영수증에 남깁니다.
 - **Football Lens:** 수집·전처리·분석·검색·화면을 나눈 파이프라인을 구현했습니다. 생성된 경기 전망과 실제 예측 정확도 검증은 구분합니다.
 - **한국어 감성분석:** 같은 모델에서 학습 데이터를 바꾸며 결과를 비교했습니다. 높은 검증 점수만으로 성능을 설명하지 않고 별도 테스트와 도메인 한계를 함께 공개합니다.
+- **MD 워크툴:** 자료가 다 들어왔다고 확인한 날(마감 확인일)까지만 목표를 판정하고, 확인되지 않은 값은 0이 아니라 '판정 보류'로 둡니다. 업로드·직접 수정·백업 복원이 같은 값 검사를 거치게 맞췄고, 보고서는 확정본으로 보관해 나중에 자료가 바뀌어도 보고 당시 내용과 차이를 함께 보여 줍니다.
 
 ## 빠르게 확인할 자료
 
@@ -32,6 +34,7 @@
 | 근거있어 | [프로젝트 개요](https://github.com/ASYNCGUY-dot/geungeo-isseo/blob/main/docs/PORTFOLIO_OVERVIEW.md) | [평가·검토 근거](https://github.com/ASYNCGUY-dot/geungeo-isseo/tree/main/docs/evidence) |
 | Football Lens | [프로젝트 개요](https://github.com/ASYNCGUY-dot/football-lens-ai-agent/blob/main/docs/PORTFOLIO_OVERVIEW.md) | [파이프라인 구현](https://github.com/ASYNCGUY-dot/football-lens-ai-agent/blob/main/week2/graph.py) |
 | 한국어 감성분석 | [프로젝트 개요](https://github.com/ASYNCGUY-dot/Huggingface-work_korean-sentiment_nlp/blob/main/docs/PORTFOLIO_OVERVIEW.md) | [실험 보고서](https://github.com/ASYNCGUY-dot/Huggingface-work_korean-sentiment_nlp/blob/main/REPORT.md) |
+| MD 워크툴 | [프로젝트 개요](https://github.com/ASYNCGUY-dot/md-work-tool/blob/main/README.md) | [배포된 앱(예시 데이터)](https://asyncguy-dot.github.io/md-work-tool/) |
 
 ## 결과를 읽는 기준
 
@@ -43,5 +46,6 @@
 - 근거있어: 연구·개발 단계입니다. AI 라벨 평가를 사람·전문가 정확도로 해석할 수 없습니다.
 - Football Lens: 개발 프로젝트입니다. 경기 예측의 실전 정확도는 이 포트폴리오에서 입증하지 않습니다.
 - 한국어 감성분석: 영화 리뷰 도메인의 실험이며 다른 도메인 성능은 별도로 검증해야 합니다.
+- MD 워크툴: 가상 회사·가상 브랜드의 예시·더미 자료로 확인했습니다. 실제 업무 파일로의 검증은 아직 진행 전입니다.
 
 공개 영역에는 프로젝트별 코드·실행 방법·판단 근거를, 비공개 영역에는 내부 계획과 개발 메모를 관리합니다.
