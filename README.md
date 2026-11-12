@@ -57,6 +57,12 @@
 
 [저장소](https://github.com/ASYNCGUY-dot/Huggingface-work_korean-sentiment_nlp) · [프로젝트 개요](https://github.com/ASYNCGUY-dot/Huggingface-work_korean-sentiment_nlp/blob/main/docs/PORTFOLIO_OVERVIEW.md) · [실험 보고서](https://github.com/ASYNCGUY-dot/Huggingface-work_korean-sentiment_nlp/blob/main/REPORT.md)
 
+## 진행 중인 팀 프로젝트
+
+### 마음길 · 현대차 공모전 팀 프로젝트
+
+추천 백엔드를 맡아 사용자 발화 해석, 재확인과 대화 종료 처리, 대화 엔진의 후보 연동과 서버 검증을 진행하고 있습니다.
+
 ---
 
-모두 개인 프로젝트이며, 개발과 검토에 AI 도구를 함께 썼습니다. 저장소의 수치는 각 문서에 적힌 시점·자료·조건의 결과이고, 한계는 저장소마다 따로 적어 두었습니다.
+개발과 검토에 AI 도구를 함께 썼습니다. 저장소의 수치는 각 문서에 적힌 시점·자료·조건의 결과이고, 한계는 저장소마다 따로 적어 두었습니다.
