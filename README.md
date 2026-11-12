@@ -19,6 +19,7 @@
 
 - 알레르기 태깅과 추천 필터를 따로 점검했습니다.
 - 재료비는 찾은 시세의 부분 합계와 추정 여부를 밝히고, 다른 부위의 가격을 대신 붙이지 않습니다.
+- 2026 KAMIS 활용사례 공모전용 보고서 문안과 시연 자료를 준비했습니다. 시연에서는 가격이 포함된 재료와 제외된 재료를 확인할 수 있습니다.
 - FastAPI · React · PostgreSQL
 
 [저장소](https://github.com/ASYNCGUY-dot/naengjango-hankki-v3) · [개발 보고서](https://github.com/ASYNCGUY-dot/naengjango-hankki-v3/blob/main/PROJECT_REPORT_V3.md)
@@ -35,6 +36,7 @@
 건강기능식품·화장품 광고 문구를 공식 데이터와 대조해 근거영수증으로 보여 주는 엔진입니다.
 
 - 공식 문구나 광고를 끝까지 해석하지 못하면 확인을 보류하고, 출처와 규칙 버전을 영수증에 남깁니다.
+- 광고 문장의 줄 경계를 처리하는 규칙을 개선하고, 고정된 평가셋 `claim-eval-v5`로 변경 전후를 비교했습니다. [평가 변경 기록](https://github.com/ASYNCGUY-dot/geungeo-isseo/commit/54abdbdf50856b264b4a5b41b71c69b68485b7bf)
 - 데이터 품질 점검 · 규칙 엔진 · 출처 추적 · 동결 평가
 
 [저장소](https://github.com/ASYNCGUY-dot/geungeo-isseo) · [프로젝트 개요](https://github.com/ASYNCGUY-dot/geungeo-isseo/blob/main/docs/PORTFOLIO_OVERVIEW.md) · [평가·검토 근거](https://github.com/ASYNCGUY-dot/geungeo-isseo/tree/main/docs/evidence)
